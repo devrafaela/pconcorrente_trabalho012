@@ -1,5 +1,6 @@
 package model;
 
+
 import javafx.scene.image.Image;
 
 /* ***************************************************************
@@ -25,10 +26,13 @@ public abstract class Familia {
 	 */
 	public static final Image ADULT_1 = new Image (Familia.class.getResourceAsStream(img+"/adult-1.png"));
 	public static final Image ADULT_2 = new Image(Familia.class.getResourceAsStream(img+"/adult-2.png"));
+	public static final Image ADULT_3 = new Image(Familia.class.getResourceAsStream(img+"/adult-3.png"));
+	public static final Image ADULT_BABY = new Image(Familia.class.getResourceAsStream(img+"/adultbaby.png"));
 	public static final Image BABY = new Image(Familia.class.getResourceAsStream(img+"/baby.png"));
 	public static final Image DEATH = new Image(Familia.class.getResourceAsStream(img+"/death.png"));
 	public static final Image ELDERLY_1 = new Image(Familia.class.getResourceAsStream(img+"/elderly-1.png"));
 	public static final Image ELDERLY_2 = new Image(Familia.class.getResourceAsStream(img+"/elderly-2.png"));
+	public static final Image ELDERLY_3 = new Image(Familia.class.getResourceAsStream(img+"elderly-3.png"));
 	public static final Image KID = new Image(Familia.class.getResourceAsStream(img+"/kid.png"));
 	public static final Image SAD = new Image(Familia.class.getResourceAsStream(img+"/sad.png"));
 	public static final Image TEENAGER = new Image(Familia.class.getResourceAsStream(img+"/teenager.png"));

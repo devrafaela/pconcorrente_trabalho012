@@ -6,40 +6,54 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="585.0" prefWidth="455.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="662.0" prefWidth="455.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pc_trabalho02_202110838.thread.controller.TelaController">
    <children>
-      <ImageView fx:id="background" fitHeight="585.0" fitWidth="546.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imgBackground" fitHeight="676.0" fitWidth="469.0" layoutX="-5.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@image/others/background.png" />
          </image>
       </ImageView>
-      <Label layoutX="212.0" layoutY="104.0" text="status" />
-      <ImageView fitHeight="61.0" fitWidth="362.0" layoutX="47.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imgTitulo" fitHeight="61.0" fitWidth="362.0" layoutX="46.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@image/others/titulo-arvoregenealogica.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="128.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imgSubTitulo" fitHeight="150.0" fitWidth="200.0" layoutX="128.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@image/others/subtitulo-familiacode.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="22.0" fitWidth="32.0" layoutX="425.0" layoutY="548.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imgMusic" fitHeight="22.0" fitWidth="32.0" layoutX="426.0" layoutY="638.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@image/others/audio-play.png" />
          </image>
       </ImageView>
-      <CheckBox fx:id="checkboxMusic" layoutX="404.0" layoutY="549.0" mnemonicParsing="false" prefHeight="9.0" prefWidth="6.0" />
-      <ImageView fitHeight="409.0" fitWidth="362.0" layoutX="50.0" layoutY="133.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imgArvore" fitHeight="691.0" fitWidth="473.0" layoutX="-9.0" layoutY="9.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@image/others/arvore-familia.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="buttonPlay" fitHeight="34.77" fitWidth="34.77" layoutX="5.0" layoutY="545.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="buttonPlay" fitHeight="34.77" fitWidth="34.77" layoutX="5.0" layoutY="623.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@image/others/button-play.png" />
          </image>
       </ImageView>
-      <Label layoutX="206.0" layoutY="551.0" text="Ano" />
+      <Label layoutX="301.0" layoutY="512.0" text="Ano: 2000" />
+      <CheckBox fx:id="checkBoxMusic" layoutX="403.0" layoutY="640.0" mnemonicParsing="false" onAction="#buttonOnClick" />
+      <Label fx:id="labelStatus" layoutX="309.0" layoutY="546.0" text="status:" />
+      <ImageView fx:id="imgMae" fitHeight="154.0" fitWidth="64.0" layoutX="194.0" layoutY="487.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="label_IdadeMae" layoutX="154.0" layoutY="579.0" text="0 anos" visible="false" />
+      <ImageView fx:id="imgFilho2" fitHeight="154.0" fitWidth="64.0" layoutX="194.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="label_IdadeFilho2" layoutX="153.0" layoutY="447.0" text="0 anos" visible="false" />
+      <ImageView fx:id="imgFilho3" fitHeight="154.0" fitWidth="64.0" layoutX="296.0" layoutY="310.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="label_IdadeFilho3" layoutX="340.0" layoutY="419.0" text="0 anos" visible="false" />
+      <ImageView fx:id="imgFilho1" fitHeight="154.0" fitWidth="64.0" layoutX="83.0" layoutY="310.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="label_IdadeFilho1" layoutX="50.0" layoutY="419.0" text="0 anos" visible="false" />
+      <ImageView fx:id="imgNeto1" fitHeight="154.0" fitWidth="64.0" layoutX="44.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="label_IdadeNeto1" layoutX="87.0" layoutY="252.0" text="0 anos" visible="false" />
+      <ImageView fx:id="imgBisneto1" fitHeight="154.0" fitWidth="64.0" layoutX="91.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="label_IdadeBisneto1" layoutX="51.0" layoutY="114.0" text="0 anos" visible="false" />
+      <ImageView fx:id="imgNeto2" fitHeight="154.0" fitWidth="64.0" layoutX="194.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="label_IdadeNeto2" layoutX="237.0" layoutY="252.0" text="0 anos" visible="false" />
    </children>
 </AnchorPane>
