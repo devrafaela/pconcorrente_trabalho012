@@ -14,7 +14,7 @@ import javafx.scene.image.ImageView;
 * Autor............: Rafaela Pereira Santos
 * Matricula........: 202110838
 * Inicio...........: 17/03/2023
-* Ultima alteracao.: 17/03/2023
+* Ultima alteracao.: 20/03/2023
 * Nome.............: Pessoa
 * Funcao...........: Eh a classe filha da classe Pessoa, aqui que
 ira ocorrer todas as alteracoes na vida de cada Pessoa da Familia
@@ -63,7 +63,7 @@ public class CicloDeVida extends Pessoa {
     this.LABEL = label;
     ARVORE_GENEALOGICA.add(this);
     ARVORE_GENEALOGICA2 = new ArrayList<>(); // Cria um novo ArrayList de ARVORE_GENEALOGICA2
-    ARVORE_GENEALOGICA.forEach(CicloDeVida -> ARVORE_GENEALOGICA2.add(CicloDeVida));
+    ARVORE_GENEALOGICA.forEach(cicloDeVida -> ARVORE_GENEALOGICA2.add(cicloDeVida));
   }
 
 

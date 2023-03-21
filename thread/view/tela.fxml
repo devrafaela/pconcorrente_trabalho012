@@ -33,14 +33,19 @@
             <Image url="@image/others/arvore-familia.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="buttonPlay" fitHeight="34.77" fitWidth="34.77" layoutX="5.0" layoutY="623.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imgNotMusic" fitHeight="22.0" fitWidth="32.0" layoutX="426.0" layoutY="638.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@image/others/audio-mute.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgButtonPlay" accessibleRole="BUTTON" fitHeight="34.77" fitWidth="34.77" layoutX="5.0" layoutY="623.0" onMouseClicked="buttonPlay" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@image/others/button-play.png" />
          </image>
       </ImageView>
-      <Label layoutX="301.0" layoutY="512.0" text="Ano: 2000" />
+      <Label fx:id="label_Ano" layoutX="301.0" layoutY="512.0" text="Ano: 2000" />
       <CheckBox fx:id="checkBoxMusic" layoutX="403.0" layoutY="640.0" mnemonicParsing="false" onAction="#buttonOnClick" />
-      <Label fx:id="labelStatus" layoutX="309.0" layoutY="546.0" text="status:" />
+      <Label fx:id="label_Status" layoutX="309.0" layoutY="546.0" text="status:" />
       <ImageView fx:id="imgMae" fitHeight="154.0" fitWidth="64.0" layoutX="194.0" layoutY="487.0" pickOnBounds="true" preserveRatio="true" />
       <Label fx:id="label_IdadeMae" layoutX="154.0" layoutY="579.0" text="0 anos" visible="false" />
       <ImageView fx:id="imgFilho2" fitHeight="154.0" fitWidth="64.0" layoutX="194.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true" />

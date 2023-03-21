@@ -38,12 +38,7 @@ public abstract class Pessoa extends Thread {
 		this.FILHOS = filhos;
 	}
     
-	public abstract void publish(); // Mostra alteracoes na tela
-	
-	/**
-	 * @param string : Mostra mensagem na tela
-	 */
-	public abstract void publish(String string);
+
 
 	public void run() {
 	
@@ -99,5 +94,13 @@ public abstract class Pessoa extends Thread {
 			} // fim do segundo run
 		} , 0, 1000);
 	} // fim do primeiro run
+
+	public abstract void publish(); // Mostra alteracoes na tela
+	
+	/**
+	 * @param string : Mostra mensagem na tela
+	 */
+	public abstract void publish(String string);
+
 
 } // fim da classe abstrata Pessoa
