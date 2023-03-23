@@ -160,8 +160,8 @@ int main (){
         cout << "[Hedy Code, a TERCEIRA FILHA de Ada morre aos " << (ano - nascDaFilhaTres) << " anos" << endl;
         cout << " - Em " << (2000 + ano) - 1 << ", morre Hedy Code. -" << endl;      
         _exit(0);
-      }
-    break;
+			}
+    break; 
 
     case 90:
       if (getpid() == mae) {

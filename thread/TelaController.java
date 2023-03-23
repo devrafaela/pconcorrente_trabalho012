@@ -16,7 +16,7 @@ import javafx.scene.input.MouseEvent;
 * Matricula........: 202110838
 * Inicio...........: 16/03/2023
 * Ultima alteracao.: 23/03/2023
-* Nome.............: TelaController
+* Nome.............: TelaController 
 * Funcao...........: Controla as alteracoes da Tela
 *************************************************************** */
 public class TelaController {

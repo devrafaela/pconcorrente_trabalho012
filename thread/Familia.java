@@ -32,7 +32,7 @@ public abstract class Familia {
 	public static final Image ELDERLY_3 = new Image(Familia.class.getResourceAsStream(img+"/elderly-3.png"));
 	public static final Image KID = new Image(Familia.class.getResourceAsStream(img+"/kid.png"));
 	//public static final Image SAD = new Image(Familia.class.getResourceAsStream(img+"/sad.png"));
-	//public static final Image TEENAGER = new Image(Familia.class.getResourceAsStream(img+"/teenager.png"));
+	 //public static final Image TEENAGER = new Image(Familia.class.getResourceAsStream(img+"/teenager.png"));
 	public static final Image YOUNG = new Image(Familia.class.getResourceAsStream(img+"/young.png"));
 
 }

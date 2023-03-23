@@ -65,7 +65,6 @@ public class CicloDeVida extends Pessoa {
       telaController.label_Status.setText(string);
     }).run();
   }*/
-
   
   @Override
   public void publish(String s) {

@@ -1,9 +1,5 @@
-
-
-
 import java.util.Timer;
 import java.util.TimerTask;
-
 import javafx.scene.control.Label;
 
 /* ***************************************************************
