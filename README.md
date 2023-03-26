@@ -1,6 +1,6 @@
 ## TRABALHO 02 - PROGRAMAÇÃO CONCORRENTE
 
-INTRODUÇÃO:
+**1.INTRODUÇÃO:**
 
 
   O projeto se trata de uma Simulação sobre a Ávore Genealógica da Familia Code*'.
@@ -9,7 +9,7 @@ INTRODUÇÃO:
   Para a criação do projeto, foi utilizado o comando '.fork()' para o arquivo 'Principal.cpp' e a utlização de 'Threads' para o 'Principal.java'.
 
 
-EXPLICAÇÃO:
+**2. EXPLICAÇÃO:**
 
 
  Era preciso seguir os seguintes comandos para a simulação da Árvore Genealógica:
@@ -51,10 +51,10 @@ EXPLICAÇÃO:
 ! O pai morre aos 90 anos;
 
 
-! obs.: 1 ano corresponde a 1 segundo de processamento.
+*! obs.: 1 ano corresponde a 1 segundo de processamento.*
 
 
-FAMÍLIA CODE:
+**3. FAMÍLIA CODE:**
 
 
 ! Mãe: Ada Code
@@ -82,4 +82,4 @@ FAMÍLIA CODE:
 
 
 
-**sobre o projeto: feito com C++, JavaFx 19, Java 8 e SceneBuilder**
+<sub>*sobre o projeto: feito com C++, JavaFx 19, Java 8 e SceneBuilder</sub>
